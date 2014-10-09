@@ -1,0 +1,1 @@
+web:	java -jar hystrix-dashboard-heroku.jar ./lib/hystrix-dashboard-1.3.18.war 
