@@ -18,7 +18,13 @@ public class Main {
 		
 		File warFile = new File(args[0]);
 
-		Server server = new Server(8080);
+		String webPort = System.getenv("PORT");
+        if(webPort == null || webPort.isEmpty()) {
+            webPort = "8080";
+        }
+
+		
+		Server server = new Server(Integer.valueOf(webPort));
 
 		WebAppContext webapp = new WebAppContext();
 		webapp.setContextPath("/");
