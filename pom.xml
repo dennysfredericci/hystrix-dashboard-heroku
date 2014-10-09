@@ -4,7 +4,7 @@
 	<groupId>br.com.fredericci.hystrix-dashboard-heroku</groupId>
 	<artifactId>hystrix-dashboard-heroku</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
-	<name>histrix-dashboard-heroku</name>
+	<name>hystrix-dashboard-heroku</name>
 	<description>The heroku deployment model with hystrix-dashboard</description>
 
 	<properties>
